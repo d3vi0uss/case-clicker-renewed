@@ -1,0 +1,9 @@
+{
+  "name": "Case Clicker Renewed",
+  "short_name": "CCR",
+  "start_url": "./index.html#/dashboard",
+  "display": "standalone",
+  "background_color": "#0c0c12",
+  "theme_color": "#0c0c12",
+  "icons": []
+}
