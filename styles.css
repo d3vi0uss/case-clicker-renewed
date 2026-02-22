@@ -1,0 +1,9 @@
+body{margin:0;font-family:Inter,system-ui;background:#0c0c12;color:#f1f1f5;display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+#sidebar{background:#14141d;border-right:1px solid #2a2a38;padding:12px;display:flex;flex-direction:column;gap:6px}
+#sidebar a{color:#a1a1b3;text-decoration:none;padding:8px;border-radius:6px;border:1px solid transparent}
+#sidebar a:hover{border-color:#7a5cff;color:#f1f1f5;box-shadow:0 0 8px #9d4edd44}
+#app{padding:14px}
+.panel{background:#14141d;border:1px solid #2a2a38;border-radius:6px;padding:12px;box-shadow:0 0 10px #9d4edd22}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.metric{display:flex;justify-content:space-between;padding:4px 0;color:#a1a1b3}
+button{background:#7a5cff;color:#fff;border:none;border-radius:6px;padding:8px 10px;cursor:pointer;margin-right:8px}
